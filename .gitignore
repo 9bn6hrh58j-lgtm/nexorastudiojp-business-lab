@@ -1,0 +1,53 @@
+# macOS
+.DS_Store
+
+# Finished paid product files - do not publish
+personal-trainer-session-tracker.xlsx
+quick-start-guide.pdf
+
+# Etsy / launch / sales assets - do not publish
+etsy-listing.md
+etsy-launch-assets.md
+etsy-image-layouts.md
+thumbnail-brief.md
+launch-checklist.md
+READY_TO_LAUNCH.md
+WAITING_PERIOD_TASKS.md
+POST_LAUNCH_CHECKLIST.md
+sales-experiment-plan.md
+
+# Competitive/business strategy - do not publish
+competitive-advantage.md
+HIGH_TICKET_MARKET_RESEARCH.md
+JAPAN_MARKET_OPPORTUNITIES.md
+HIGH_TICKET_IDEAS.md
+BOARD_REPORT.md
+GITHUB_LATER.md
+
+# Product images and generated image sources - do not publish
+images/
+image-sources/
+
+# Local/private environment files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa
+id_ed25519
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+.cache/
+
+# Dependencies/build artifacts
+node_modules/
+dist/
+build/
+coverage/

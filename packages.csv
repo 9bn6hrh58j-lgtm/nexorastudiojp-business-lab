@@ -1,0 +1,12 @@
+Package ID,Client ID,Package Name,Purchase Date,Sessions Purchased,Price,Amount Paid,Payment Status,Renewal Threshold,Notes
+PKG001,C001,10 Session Pack,2026-05-01,10,700,700,Paid,2,Renew when 2 sessions remain
+PKG002,C002,8 Session Pack,2026-05-05,8,560,280,Partially Paid,2,Second payment due soon
+PKG003,C003,12 Session Pack,2026-05-10,12,900,900,Paid,3,Includes monthly progress review
+PKG004,C004,6 Session Pack,2026-05-12,6,420,420,Paid,2,Travel schedule changes often
+PKG005,C005,Trial Session,2026-06-01,1,75,0,Unpaid,1,Lead trial session
+PKG006,C006,20 Session Pack,2026-04-20,20,1300,1300,Paid,4,Marathon prep package
+PKG007,C007,5 Session Pack,2026-03-15,5,350,350,Paid,1,Paused
+PKG008,C008,10 Session Pack,2026-05-18,10,700,350,Partially Paid,2,Installment plan
+PKG009,C009,4 Session Starter,2026-05-22,4,300,300,Paid,1,Beginner starter package
+PKG010,C010,10 Session Pack,2026-02-01,10,700,700,Paid,2,Past client
+

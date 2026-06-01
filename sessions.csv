@@ -1,0 +1,12 @@
+Session ID,Client ID,Package ID,Session Date,Completed,Session Type,Focus Area,Next Session Date,Trainer Notes
+S001,C001,PKG001,2026-05-03,Yes,In-Person,Full body strength,2026-05-10,Good form on squats
+S002,C001,PKG001,2026-05-10,Yes,In-Person,Upper body,2026-05-17,Increase dumbbell weight next time
+S003,C002,PKG002,2026-05-08,Yes,Online,Low-impact cardio,2026-05-15,Keep intensity moderate
+S004,C002,PKG002,2026-05-15,Yes,Online,Core and mobility,2026-05-22,Client reported knee comfort
+S005,C003,PKG003,2026-05-12,Yes,In-Person,Hypertrophy,2026-05-19,Add progressive overload
+S006,C004,PKG004,2026-05-14,Yes,In-Person,General fitness,2026-05-28,Rescheduled due to travel
+S007,C006,PKG006,2026-05-01,Yes,Outdoor,Running strength,2026-05-08,Focus on hip stability
+S008,C008,PKG008,2026-05-20,Yes,In-Person,Fat loss circuit,2026-05-27,Good energy
+S009,C009,PKG009,2026-05-24,Yes,In-Person,Movement basics,2026-05-31,Beginner friendly pace
+S010,C005,PKG005,2026-06-03,No,Trial,Assessment,2026-06-03,Trial booked
+

@@ -1,0 +1,8 @@
+Checklist Item,When to Use,Done
+Check clients with 2 or fewer sessions left,Every morning,
+Message renewal offer before final session,When remaining sessions <= renewal threshold,
+Confirm unpaid or partial payments,Every Monday,
+Schedule next session before client leaves,After each completed session,
+Update package after new purchase,When client renews,
+Review paused clients,Every Friday,
+

@@ -1,0 +1,10 @@
+Payment ID,Client ID,Package ID,Payment Date,Amount,Payment Method,Notes
+PAY001,C001,PKG001,2026-05-01,700,Card,Paid in full
+PAY002,C002,PKG002,2026-05-05,280,Card,First installment
+PAY003,C003,PKG003,2026-05-10,900,Bank Transfer,Paid in full
+PAY004,C004,PKG004,2026-05-12,420,Card,Paid in full
+PAY005,C006,PKG006,2026-04-20,1300,Bank Transfer,Paid in full
+PAY006,C007,PKG007,2026-03-15,350,Card,Paid in full
+PAY007,C008,PKG008,2026-05-18,350,Card,First installment
+PAY008,C009,PKG009,2026-05-22,300,Cash,Paid in full
+

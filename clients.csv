@@ -1,0 +1,12 @@
+Client ID,Client Name,Email,Phone,Status,Goal,Start Date,Next Check-In,Notes
+C001,Ava Thompson,ava@example.com,555-0101,Active,Strength and toning,2026-05-01,2026-06-06,Prefers morning sessions
+C002,Noah Miller,noah@example.com,555-0102,Active,Weight loss,2026-05-05,2026-06-07,Needs low-impact options
+C003,Emma Davis,emma@example.com,555-0103,Active,Muscle gain,2026-05-10,2026-06-08,Tracks macros
+C004,Liam Wilson,liam@example.com,555-0104,Active,General fitness,2026-05-12,2026-06-09,Travels often
+C005,Olivia Brown,olivia@example.com,555-0105,Lead,Posture improvement,2026-06-01,2026-06-05,Asked about 10-session package
+C006,James Taylor,james@example.com,555-0106,Active,Marathon prep,2026-04-20,2026-06-10,Long-term client
+C007,Sophia Anderson,sophia@example.com,555-0107,Paused,Mobility,2026-03-15,2026-06-20,Paused for two weeks
+C008,Benjamin Lee,benjamin@example.com,555-0108,Active,Fat loss,2026-05-18,2026-06-11,Evening sessions only
+C009,Mia Martinez,mia@example.com,555-0109,Active,Strength basics,2026-05-22,2026-06-12,Beginner
+C010,Ethan Clark,ethan@example.com,555-0110,Past,Athletic conditioning,2026-02-01,2026-07-01,May renew later
+
