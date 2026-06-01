@@ -1,25 +1,24 @@
-# Personal Trainer Client, Session & Payment Tracker
+# Personal Trainer Session Tracker
 
-MVP digital product for Etsy, Gumroad, and Payhip.
+Public-safe sample repository for a spreadsheet-based client, session, and payment tracker.
 
-## One sentence value proposition
+## What this repository contains
 
-Never lose track of client sessions, payments, or renewals again.
-
-## Included tabs
-
-- Dashboard
-- Clients
-- Packages
-- Sessions
-- Payments
-- Mobile Input
-- Renewal Checklist
-- Quick Start Guide
+- CSV sample data
+- Spreadsheet generation script
+- Launch asset generation script
+- Public review documentation
+- Repository structure notes
 
 ## Included files
 
-- `personal-trainer-session-tracker.xlsx`
+- `README.md`
+- `PUBLIC_REVIEW_README.md`
+- `PUBLIC_RELEASE_CHECKLIST.md`
+- `REPOSITORY_STRUCTURE.md`
+- `GITHUB_READY.md`
+- `build_xlsx.py`
+- `create_launch_assets.js`
 - `clients.csv`
 - `packages.csv`
 - `sessions.csv`
@@ -27,13 +26,23 @@ Never lose track of client sessions, payments, or renewals again.
 - `mobile-input.csv`
 - `renewal-checklist.csv`
 - `quick-start-guide.md`
+- `quick-start-guide-final.md`
+
+## Not included in public repo
+
+- `personal-trainer-session-tracker.xlsx`
+- `quick-start-guide.pdf`
 - `etsy-listing.md`
 - `thumbnail-brief.md`
 - `launch-checklist.md`
+- `images/`
+- `image-sources/`
+- sales strategy documents
+- market research documents
+- launch notes
 
-## MVP scope
+## Scope
 
-This product is intentionally simple. It does not include AI, SaaS features, email sending, client portals, or advanced CRM automation.
+This repository intentionally avoids exposing paid product files, launch assets, or private business strategy.
 
-The goal is to publish quickly and validate whether personal trainers will pay for a simple dashboard that protects revenue by tracking remaining sessions, payments, and renewal timing.
-
+The goal is to provide a public-safe sample of the spreadsheet workflow without revealing the commercial Etsy product package.
