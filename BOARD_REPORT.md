@@ -92,6 +92,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `PAINKILLER_ANALYSIS_V1.md` | Yes | Yes | Yes | No |
 | `FREE_TO_PAID_LOOP_ANALYSIS_V1.md` | Yes | Yes | Yes | No |
 | `HUMAN_DESIRE_MAP_V1.md` | Yes | Yes | Yes | No |
+| `HIGH_DESIRE_MARKET_MAP_V1.md` | Yes | Yes | Yes | No |
 
 ### Revenue Risk Scanner MVP Implementation Status
 
