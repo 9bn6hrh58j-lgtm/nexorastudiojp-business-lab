@@ -94,6 +94,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `HUMAN_DESIRE_MAP_V1.md` | Yes | Yes | Yes | No |
 | `HIGH_DESIRE_MARKET_MAP_V1.md` | Yes | Yes | Yes | No |
 | `DELIVERY_PLATFORM_REALITY_CHECK_V1.md` | Yes | Yes | Yes | No |
+| `ZERO_BASE_OPPORTUNITY_RANKING_V1.md` | Yes | Yes | Yes | No |
 
 ### Revenue Risk Scanner MVP Implementation Status
 
