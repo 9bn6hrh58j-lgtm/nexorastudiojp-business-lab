@@ -48,16 +48,17 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `japan-readiness-audit/SEND_READY_REPORT.md` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/READY_TO_SEND.md` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/GOOGLE_FORM_SETUP.md` | Yes | Yes | Yes | No |
+| `scripts/set_form_url.sh` | Yes | Yes | Yes | No |
 
 ### Sales Funnel Blockers
 
 The sales funnel is not ready for public outreach until these live links are configured:
 
-- Form endpoint for `FOUNDER_BETA_APPLICATION_PAGE.html`
+- Live Google Form URL (CEO creates at forms.google.com — see `japan-readiness-audit/GOOGLE_FORM_SETUP.md`)
 - Live Gumroad product URL
-- Public application page URL
+- Once Google Form URL is obtained: run `./scripts/set_form_url.sh <url>` to replace all placeholders
 
-Current status: sales assets are created, committed, and pushed, but live form/payment configuration is still required before outreach.
+Current status: sales assets are created, committed, and pushed. `scripts/set_form_url.sh` is ready to replace all placeholders once the Google Form URL is available. Outreach can start immediately after.
 
 Next required step: request review after confirming GitHub push.
 
