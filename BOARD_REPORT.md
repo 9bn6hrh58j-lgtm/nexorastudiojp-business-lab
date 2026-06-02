@@ -89,6 +89,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `STRATEGIC_PRIORITY_MAP_V1.md` | Yes | Yes | Yes | No |
 | `CUSTOMER_ACCESS_RISK_V1.md` | Yes | Yes | Yes | No |
 | `CHATGPT_COMPETITION_ANALYSIS_V1.md` | Yes | Yes | Yes | No |
+| `PAINKILLER_ANALYSIS_V1.md` | Yes | Yes | Yes | No |
 
 ### Revenue Risk Scanner MVP Implementation Status
 
