@@ -78,6 +78,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `REVENUE_RISK_SCANNER_UNIT_ECONOMICS_V1.md` | Yes | Yes | Yes | No |
 | `USER_VALIDATION_PLAN_V1.md` | Yes | Yes | Yes | No |
 | `FINDING_ECONOMICS_V1.md` | Yes | Yes | Yes | No |
+| `FINDING_VALIDATION_PLAN_V1.md` | Yes | Yes | Yes | No |
 
 ### Revenue Risk Scanner MVP Implementation Status
 
