@@ -59,6 +59,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `CROSS_BORDER_TRUST_SCANNER_V1.md` | Yes | Yes | Yes | No |
 | `REVENUE_RISK_SCORING_V1.md` | Yes | Yes | Yes | No |
 | `MVP_SPEC_V1.md` | Yes | Yes | Yes | No |
+| `AI_BUSINESS_RANKING_V2.md` | Yes | Yes | Yes | No |
 | `SITE_VALIDATION_PLAN_V1.md` | Yes | Yes | Yes | No |
 
 ### Sales Funnel Blockers
