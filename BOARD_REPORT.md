@@ -108,6 +108,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `SUCCESS_FEE_BUSINESS_MAP_V1.md` | Yes | Yes | Yes | No |
 | `HIGH_VALUE_LEAD_MARKET_MAP_V1.md` | Yes | Yes | Yes | No |
 | `LEAD_MARKET_COMPETITION_ANALYSIS_V1.md` | Yes | Yes | Yes | No |
+| `INTENT_CAPTURE_MARKET_MAP_V1.md` | Yes | Yes | Yes | No |
 
 ### Revenue Risk Scanner MVP Implementation Status
 
