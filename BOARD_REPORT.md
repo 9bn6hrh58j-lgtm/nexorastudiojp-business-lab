@@ -99,6 +99,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `NO_COST_HIGH_DESIRE_BUSINESS_MAP_V1.md` | Yes | Yes | Yes | No |
 | `PASTE_TO_RESULT_FRAMEWORK_V1.md` | Yes | Yes | Yes | No |
 | `ZERO_BASE_50_IDEAS_V2.md` | Yes | Yes | Yes | No |
+| `BUSINESS_SELECTION_RULEBOOK_V1.md` | Yes | Yes | Yes | No |
 
 ### Revenue Risk Scanner MVP Implementation Status
 
