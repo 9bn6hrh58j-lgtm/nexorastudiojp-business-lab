@@ -47,6 +47,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `japan-readiness-audit/OUTREACH_EXECUTION_PLAN.md` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/SEND_READY_REPORT.md` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/READY_TO_SEND.md` | Yes | Yes | Yes | No |
+| `japan-readiness-audit/GOOGLE_FORM_SETUP.md` | Yes | Yes | Yes | No |
 
 ### Sales Funnel Blockers
 
