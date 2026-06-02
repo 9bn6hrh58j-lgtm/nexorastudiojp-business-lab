@@ -43,6 +43,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `japan-readiness-audit/FORM_REQUIREMENTS.md` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/TARGET_10_COMPANIES.md` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/OUTREACH_BATCH_01.md` | Yes | Yes | Yes | No |
+| `japan-readiness-audit/OUTREACH_BATCH_01_V2.md` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/LAUNCH_READY_CHECKLIST.md` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/OUTREACH_EXECUTION_PLAN.md` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/SEND_READY_REPORT.md` | Yes | Yes | Yes | No |
