@@ -14,6 +14,29 @@ This checklist only covers final URL readiness.
 No new market research.  
 No new product development.
 
+## CEO Decision Update
+
+The launch condition has changed.
+
+Old condition:
+
+```text
+Google Form URL + Gumroad product URL complete
+```
+
+New condition:
+
+```text
+Google Form URL complete
+```
+
+Reason:
+
+- current objective is first reply acquisition
+- payment is not the KPI
+- Gumroad payment link is only needed after Fit review
+- Gumroad setup can proceed in parallel
+
 ## 1. Sample Report URL
 
 Status:
@@ -104,13 +127,13 @@ Reason:
 
 The first DM can technically be sent without the form/payment URLs because it only asks whether the prospect wants the sample report.
 
-However, the reply path is incomplete. If a prospect replies positively, the current follow-up requires:
+However, the reply path requires:
 
 ```text
 [APPLICATION_FORM_LINK]
 ```
 
-That link is not finalized.
+That link is not finalized. Once the Google Form URL is finalized, the first 5 DMs can begin even if the Gumroad URL is still pending.
 
 ## URL Readiness Table
 
@@ -118,7 +141,7 @@ That link is not finalized.
 |---|---:|---:|---|
 | Sample report URL | Yes | Yes | READY |
 | Application form URL | No | Yes | NOT READY |
-| Gumroad product URL | No | After Fit review | NOT READY |
+| Gumroad product URL | No | After Fit review | PARALLEL WORK |
 | Founder Beta slots copy | No | Yes | READY: `10 Slots Available` |
 | English-only payment guidance | No | Yes | READY |
 
@@ -132,22 +155,22 @@ NOT READY
 
 Reason:
 
-The reply path is not complete.
+The Google Form URL is not complete.
 
 Practical interpretation:
 
 ```text
-READY ONLY IF the CEO accepts sending the first DM before the application/payment URLs are finalized.
+READY as soon as Google Form URL exists.
 ```
 
-But this is not recommended, because a quick positive reply would force manual improvisation.
+Gumroad does not block DM start because payment is only sent after Fit review.
 
 ## Final Blockers
 
 | Priority | Blocker | Owner | Fix |
 |---:|---|---|---|
 | 1 | Application form URL missing | Codex CLI / CEO execution | Create Google Form and provide public URL |
-| 2 | Gumroad product URL missing | Codex CLI / CEO execution | Create Gumroad product and provide live URL |
+| 2 | Gumroad product URL missing | Codex CLI / CEO execution | Parallel work; needed before Fit-approved payment |
 | 3 | Placeholder replacement not complete | Codex CLI | Replace URLs in repo and push |
 | 4 | OUTREACH_BATCH_01 follow-up links still placeholders | Codex CLI | Replace `[SAMPLE_REPORT_LINK]` and `[APPLICATION_FORM_LINK]` |
 
@@ -159,4 +182,4 @@ NOT READY
 
 The first 5 DMs should wait until the Google Form URL is finalized at minimum.
 
-Once the Google Form URL exists, the first 5 DMs can start. Gumroad can follow shortly after because payment is only sent after Fit review, but it should still be created before serious outreach volume begins.
+Once the Google Form URL exists, the first 5 DMs can start. Gumroad can follow in parallel because payment is only sent after Fit review.
