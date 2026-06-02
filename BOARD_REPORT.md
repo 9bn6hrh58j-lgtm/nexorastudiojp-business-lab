@@ -87,6 +87,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `REAL_USER_FEEDBACK_V2.md` | Yes | Yes | Yes | No |
 | `MOBILE_FIRST_OPPORTUNITY_MAP_V1.md` | Yes | Yes | Yes | No |
 | `STRATEGIC_PRIORITY_MAP_V1.md` | Yes | Yes | Yes | No |
+| `CUSTOMER_ACCESS_RISK_V1.md` | Yes | Yes | Yes | No |
 
 ### Revenue Risk Scanner MVP Implementation Status
 
