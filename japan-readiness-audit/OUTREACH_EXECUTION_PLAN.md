@@ -135,10 +135,10 @@ Send:
 
 ```text
 Thanks. Here is the sample report:
-[SAMPLE_REPORT_URL]
+https://github.com/9bn6hrh58j-lgtm/nexorastudiojp-business-lab/blob/main/japan-readiness-audit/customer-facing/SAMPLE_AUDIT_REPORT.pdf
 
 If you want me to check whether [Company] is a fit for the Founder Beta, you can apply here:
-[GOOGLE_FORM_URL]
+https://docs.google.com/forms/d/e/1FAIpQLSd-pUvzg3pxBg_AaX8NmXzFcZfQW242q68F9n6AFEsCz5PW8g/viewform
 
 Founder Beta currently has 10 slots available. I review fit before sending the payment link so the first audits stay focused and useful.
 ```

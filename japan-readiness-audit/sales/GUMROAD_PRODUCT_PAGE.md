@@ -122,7 +122,7 @@ You will receive your written report within 3-5 business days.
 Replace these before sharing publicly:
 
 - Gumroad product URL: `GUMROAD_PRODUCT_URL_HERE`
-- Founder Beta application URL: `FOUNDER_BETA_APPLICATION_URL_HERE`
+- Founder Beta application URL: `https://docs.google.com/forms/d/e/1FAIpQLSd-pUvzg3pxBg_AaX8NmXzFcZfQW242q68F9n6AFEsCz5PW8g/viewform`
 - Remaining slots count
 
 Recommended Gumroad button copy:
@@ -134,5 +134,5 @@ Apply for the $49 Founder Beta Audit
 Recommended post-purchase instruction:
 
 ```text
-After purchase, submit your website URL and Japan launch context through the Founder Beta application form: FOUNDER_BETA_APPLICATION_URL_HERE
+After purchase, submit your website URL and Japan launch context through the Founder Beta application form: https://docs.google.com/forms/d/e/1FAIpQLSd-pUvzg3pxBg_AaX8NmXzFcZfQW242q68F9n6AFEsCz5PW8g/viewform
 ```

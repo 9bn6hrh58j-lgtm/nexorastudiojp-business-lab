@@ -30,9 +30,9 @@ Reason:
 
 | Priority | Blocker | Impact | Solution | Estimated Time | Owner |
 |---:|---|---|---|---:|---|
-| 1 | No live application form | Prospects cannot submit website URL or context | Create Google Form and link responses to Google Sheets | 10 min | CEO / Codex Chat support |
-| 2 | No live payment link | Buyers cannot pay | Create Gumroad product at $49 and copy product URL | 10-15 min | CEO |
-| 3 | Application page has placeholders | Public page cannot be shared safely | Replace `FORM_ENDPOINT_HERE`, `GUMROAD_PRODUCT_URL_HERE`, and `FOUNDER_BETA_APPLICATION_URL_HERE` after URLs exist | 5 min | Codex Chat / CLI |
+| 1 | Live application form | Resolved: prospects can submit website URL and context | Google Form URL is live and ready for DM follow-up | 0 min | Done |
+| 2 | No live payment link | Buyers cannot pay after Fit review | Create Gumroad product at $49 and copy product URL | 10-15 min | CEO |
+| 3 | Static application page has placeholders | Static page cannot be shared safely | Google Form URL is now live; replace `FORM_ENDPOINT_HERE` and `GUMROAD_PRODUCT_URL_HERE` only if using the static page | 5 min | Parallel work |
 | 4 | Sample report link is GitHub-facing | Trust proof works, but buyer experience is not polished | Use current GitHub PDF link for now; upgrade later to a cleaner hosted page if needed | 0 min now | Codex Chat |
 | 5 | Outreach tracker must be ready before sending DMs | Replies and objections may be lost | Use existing `TARGET_COMPANY_LIST_TEMPLATE.xlsx` | 2 min | CEO |
 | 6 | Founder Beta remaining slots not updated | Scarcity is weaker | Start with "10 beta slots available" and update manually after each sale | 2 min | CEO |
@@ -167,7 +167,7 @@ japan-readiness-audit/sales/GUMROAD_PRODUCT_PAGE.md
 Thank you for purchasing the Japan Readiness Audit Founder Beta.
 
 Please submit your website and launch context here:
-FOUNDER_BETA_APPLICATION_URL_HERE
+https://docs.google.com/forms/d/e/1FAIpQLSd-pUvzg3pxBg_AaX8NmXzFcZfQW242q68F9n6AFEsCz5PW8g/viewform
 
 Your written audit report will be delivered within 3-5 business days after your application details are received.
 ```
@@ -182,12 +182,10 @@ Your written audit report will be delivered within 3-5 business days after your 
 
 | Priority | Task | Done When | Estimated Time |
 |---:|---|---|---:|
-| 1 | Create Google Form | Public form URL exists | 10 min |
-| 2 | Create Gumroad product | Live payment URL exists | 10-15 min |
-| 3 | Update application/Gumroad docs | Placeholder URLs replaced in repo | 5 min |
-| 4 | Confirm sample report link opens | PDF link works without login | 2 min |
-| 5 | Prepare first 25 target companies | Rows exist in tracker | 15-30 min |
-| 6 | Prepare first DM batch | 10 personalized observations ready | 20-30 min |
+| 1 | Create Google Form | Public form URL exists | DONE |
+| 2 | Confirm sample report link opens | PDF link works without login | DONE |
+| 3 | Prepare first DM batch | 5 personalized observations ready | DONE |
+| 4 | Create Gumroad product | Live payment URL exists | PARALLEL WORK |
 
 ### Not Required Before First Outreach
 
@@ -207,9 +205,9 @@ These can wait:
 
 ### Priority 1: Make application possible
 
-Create Google Form.
+Google Form is live.
 
-Without this, buyer intent cannot be captured.
+Buyer intent can now be captured.
 
 ### Priority 2: Make payment possible
 
@@ -217,15 +215,14 @@ Create Gumroad product.
 
 Without this, interest cannot become validation.
 
-### Priority 3: Replace placeholders
+### Priority 3: Replace remaining static-page placeholders
 
 Update:
 
 - `FORM_ENDPOINT_HERE`
 - `GUMROAD_PRODUCT_URL_HERE`
-- `FOUNDER_BETA_APPLICATION_URL_HERE`
 
-Without this, the funnel is still not operational.
+This is not required for the first 5 DMs because the Google Form URL is used directly.
 
 ### Priority 4: Start direct outreach
 
@@ -237,7 +234,11 @@ Start with 25 highly targeted companies and use personalized observations.
 
 ### Minute 0-10
 
-Create Google Form and copy the public form URL.
+Google Form is already complete:
+
+```text
+https://docs.google.com/forms/d/e/1FAIpQLSd-pUvzg3pxBg_AaX8NmXzFcZfQW242q68F9n6AFEsCz5PW8g/viewform
+```
 
 ### Minute 10-25
 
@@ -245,7 +246,7 @@ Create Gumroad product, paste the product copy, upload or link the sample report
 
 ### Minute 25-30
 
-Replace placeholder URLs in repository files and push.
+Reflect the Google Form URL in repository files and push.
 
 ## Operational Flow For First Outreach
 
@@ -310,18 +311,18 @@ Mitigation:
 
 ### Can outreach start today?
 
-**Yes, if the three live URLs are created and inserted today.**
+**Yes.**
 
-Required live URLs:
+Required before the first 5 DMs:
 
-1. Google Form URL
-2. Gumroad product URL
-3. Public application page or form URL
+1. Google Form URL: done
+2. Sample report URL: done
+3. Final DM copy: done
 
 ### Final Judgment
 
 **Yes**
 
-Today outreach is realistic because the remaining blockers are operational, not strategic or technical.
+Today outreach is ready because the Google Form URL is live and the first 5 DMs can use it after a positive reply.
 
-The only hard stop is whether the CEO can create the Google Form and Gumroad product links. If those links are created, the first LinkedIn outreach batch can begin today.
+Gumroad remains parallel work because payment is sent only after Fit review.

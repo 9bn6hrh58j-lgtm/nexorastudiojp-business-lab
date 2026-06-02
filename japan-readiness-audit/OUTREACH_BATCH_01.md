@@ -119,14 +119,14 @@ Would you like me to send a sample report?
 
 ```text
 Thanks. Here is the sample report:
-[SAMPLE_REPORT_LINK]
+https://github.com/9bn6hrh58j-lgtm/nexorastudiojp-business-lab/blob/main/japan-readiness-audit/customer-facing/SAMPLE_AUDIT_REPORT.pdf
 
 The audit is a practical review of the current website from a Japanese buyer-readiness perspective. It looks at trust signals, localization gaps, FAQ gaps, payment/shipping/return clarity, and priority fixes.
 
 Founder Beta is currently 10 slots available at $49, but I review fit before sending the payment link.
 
 If you want me to check whether [Company] is a fit, you can apply here:
-[APPLICATION_FORM_LINK]
+https://docs.google.com/forms/d/e/1FAIpQLSd-pUvzg3pxBg_AaX8NmXzFcZfQW242q68F9n6AFEsCz5PW8g/viewform
 ```
 
 ### Reply Type: "What is included?"

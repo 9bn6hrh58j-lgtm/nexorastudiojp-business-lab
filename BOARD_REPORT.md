@@ -54,11 +54,10 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 
 The sales funnel is not ready for public outreach until these live links are configured:
 
-- Live Google Form URL (CEO creates at forms.google.com — see `japan-readiness-audit/GOOGLE_FORM_SETUP.md`)
-- Live Gumroad product URL
-- Once Google Form URL is obtained: run `./scripts/set_form_url.sh <url>` to replace all placeholders
+- Live Google Form URL: `https://docs.google.com/forms/d/e/1FAIpQLSd-pUvzg3pxBg_AaX8NmXzFcZfQW242q68F9n6AFEsCz5PW8g/viewform`
+- Live Gumroad product URL: parallel work, not required for first 5 DMs
 
-Current status: sales assets are created, committed, and pushed. `scripts/set_form_url.sh` is ready to replace all placeholders once the Google Form URL is available. Outreach can start immediately after.
+Current status: READY for the first 5 LinkedIn DMs. Google Form URL and sample report URL are available. Gumroad remains parallel work because payment is sent only after Fit review.
 
 Next required step: request review after confirming GitHub push.
 

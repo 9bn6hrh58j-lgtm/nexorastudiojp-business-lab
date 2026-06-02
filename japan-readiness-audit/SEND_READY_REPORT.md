@@ -19,24 +19,23 @@ No new business ideas.
 Status:
 
 ```text
-NOT READY
+READY
 ```
 
 URL:
 
 ```text
-PENDING_GOOGLE_FORM_URL
+https://docs.google.com/forms/d/e/1FAIpQLSd-pUvzg3pxBg_AaX8NmXzFcZfQW242q68F9n6AFEsCz5PW8g/viewform
 ```
 
-Current issue:
+Current status:
 
-- No live Google Form URL is present in the repository yet.
-- `FORM_ENDPOINT_HERE`, `FOUNDER_BETA_APPLICATION_URL_HERE`, `[APPLICATION_FORM_LINK]`, and `[GOOGLE_FORM_URL]` placeholders still exist in related files.
+- Live Google Form URL is present.
+- Follow-up messages can now include the application form link.
 
-Action required:
+Remaining note:
 
-- Confirm the live Google Form public URL.
-- Replace follow-up placeholders in outreach materials.
+- Gumroad URL remains parallel work and is not required before first-reply outreach.
 
 ## 2. Sample Report URL
 
@@ -139,7 +138,7 @@ Thanks. Here is the sample report:
 https://github.com/9bn6hrh58j-lgtm/nexorastudiojp-business-lab/blob/main/japan-readiness-audit/customer-facing/SAMPLE_AUDIT_REPORT.pdf
 
 If you want me to check whether [Company] is a fit for the Founder Beta, you can apply here:
-PENDING_GOOGLE_FORM_URL
+https://docs.google.com/forms/d/e/1FAIpQLSd-pUvzg3pxBg_AaX8NmXzFcZfQW242q68F9n6AFEsCz5PW8g/viewform
 
 Founder Beta currently has 10 slots available. I review fit before sending the payment link so the first audits stay focused and useful.
 ```
@@ -217,11 +216,9 @@ Sales are not the objective of this batch.
 ## Final Judgment
 
 ```text
-NOT READY
+READY
 ```
 
 Reason:
 
-The Google Form URL is not finalized.
-
-Once `PENDING_GOOGLE_FORM_URL` is replaced with the live Google Form URL, this batch can move to execution.
+Google Form URL and sample report URL are both available. The first 5 LinkedIn DMs can start.

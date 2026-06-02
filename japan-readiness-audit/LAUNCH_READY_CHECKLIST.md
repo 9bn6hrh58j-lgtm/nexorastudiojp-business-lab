@@ -62,24 +62,21 @@ Notes:
 Status:
 
 ```text
-NOT READY
+READY
 ```
 
-Current issue:
+URL:
 
 ```text
-FOUNDER_BETA_APPLICATION_URL_HERE
-FORM_ENDPOINT_HERE
+https://docs.google.com/forms/d/e/1FAIpQLSd-pUvzg3pxBg_AaX8NmXzFcZfQW242q68F9n6AFEsCz5PW8g/viewform
 ```
 
-These placeholders still exist in the repo.
+Google Form URL is finalized.
 
-Required action:
+Note:
 
-1. Create the Google Form.
-2. Copy the public form URL.
-3. Replace `FOUNDER_BETA_APPLICATION_URL_HERE` in relevant files.
-4. If using the static HTML page, replace `FORM_ENDPOINT_HERE` with a live form endpoint or stop using the HTML page for public outreach.
+- The static HTML form still contains `FORM_ENDPOINT_HERE`, but the launch path uses the Google Form URL directly.
+- The static HTML page is not required for the first 5 DMs.
 
 Fastest path:
 
@@ -120,27 +117,19 @@ Required action:
 Status:
 
 ```text
-NOT READY
+READY
 ```
 
 Reason:
 
-The first DM can technically be sent without the form/payment URLs because it only asks whether the prospect wants the sample report.
-
-However, the reply path requires:
-
-```text
-[APPLICATION_FORM_LINK]
-```
-
-That link is not finalized. Once the Google Form URL is finalized, the first 5 DMs can begin even if the Gumroad URL is still pending.
+The Google Form URL is finalized. The first 5 DMs can begin even if the Gumroad URL is still pending.
 
 ## URL Readiness Table
 
 | Item | Required For First DM? | Required After Positive Reply? | Status |
 |---|---:|---:|---|
 | Sample report URL | Yes | Yes | READY |
-| Application form URL | No | Yes | NOT READY |
+| Application form URL | No | Yes | READY |
 | Gumroad product URL | No | After Fit review | PARALLEL WORK |
 | Founder Beta slots copy | No | Yes | READY: `10 Slots Available` |
 | English-only payment guidance | No | Yes | READY |
@@ -150,36 +139,26 @@ That link is not finalized. Once the Google Form URL is finalized, the first 5 D
 Strict interpretation:
 
 ```text
-NOT READY
+READY
 ```
 
 Reason:
 
-The Google Form URL is not complete.
-
-Practical interpretation:
-
-```text
-READY as soon as Google Form URL exists.
-```
-
-Gumroad does not block DM start because payment is only sent after Fit review.
+Google Form URL exists. Gumroad does not block DM start because payment is only sent after Fit review.
 
 ## Final Blockers
 
 | Priority | Blocker | Owner | Fix |
 |---:|---|---|---|
-| 1 | Application form URL missing | Codex CLI / CEO execution | Create Google Form and provide public URL |
+| 1 | Application form URL missing | Done | Google Form URL is finalized |
 | 2 | Gumroad product URL missing | Codex CLI / CEO execution | Parallel work; needed before Fit-approved payment |
-| 3 | Placeholder replacement not complete | Codex CLI | Replace URLs in repo and push |
-| 4 | OUTREACH_BATCH_01 follow-up links still placeholders | Codex CLI | Replace `[SAMPLE_REPORT_LINK]` and `[APPLICATION_FORM_LINK]` |
+| 3 | Placeholder replacement not complete | Done for DM path | Google Form URL is reflected in the outreach follow-up path |
+| 4 | Static HTML form endpoint missing | Parallel work | Not required for first 5 DMs |
 
 ## Final Judgment
 
 ```text
-NOT READY
+READY
 ```
 
-The first 5 DMs should wait until the Google Form URL is finalized at minimum.
-
-Once the Google Form URL exists, the first 5 DMs can start. Gumroad can follow in parallel because payment is only sent after Fit review.
+The first 5 DMs can start now. Gumroad can follow in parallel because payment is only sent after Fit review.

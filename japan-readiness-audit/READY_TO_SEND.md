@@ -24,26 +24,23 @@ No new business ideas.
 Status:
 
 ```text
-NOT READY
+READY
 ```
 
 URL:
 
 ```text
-PENDING_GOOGLE_FORM_URL
+https://docs.google.com/forms/d/e/1FAIpQLSd-pUvzg3pxBg_AaX8NmXzFcZfQW242q68F9n6AFEsCz5PW8g/viewform
 ```
 
-Blocking issue:
+Current status:
 
-- The live Google Form URL is not yet present in the repository.
-- DM follow-up cannot be fully executed until this URL exists.
+- The live Google Form URL is present.
+- DM follow-up can now include the application form link.
 
-Required action:
+Remaining note:
 
-- Codex CLI completes Google Form.
-- Codex CLI obtains the public Google Form URL.
-- Codex CLI replaces `PENDING_GOOGLE_FORM_URL`, `[GOOGLE_FORM_URL]`, and `[APPLICATION_FORM_LINK]` where needed.
-- Codex CLI updates `BOARD_REPORT.md` and pushes to GitHub.
+- Gumroad remains parallel work and is not required before sending the first 5 DMs.
 
 ## 2. Sample Report URL
 
@@ -188,7 +185,7 @@ Thanks. Here is the sample report:
 https://github.com/9bn6hrh58j-lgtm/nexorastudiojp-business-lab/blob/main/japan-readiness-audit/customer-facing/SAMPLE_AUDIT_REPORT.pdf
 
 If you want me to check whether [Company] is a fit for the Founder Beta, you can apply here:
-PENDING_GOOGLE_FORM_URL
+https://docs.google.com/forms/d/e/1FAIpQLSd-pUvzg3pxBg_AaX8NmXzFcZfQW242q68F9n6AFEsCz5PW8g/viewform
 
 Founder Beta currently has 10 slots available. I review fit before sending the payment link so the first audits stay focused and useful.
 ```
@@ -216,15 +213,9 @@ Happy to reconnect when Japan is closer on your roadmap.
 ## Final Judgment
 
 ```text
-NOT READY
+READY
 ```
 
 Reason:
 
-Google Form URL is not finalized.
-
-Once the Google Form URL is added, this report should be updated to:
-
-```text
-READY
-```
+Google Form URL and sample report URL are both available. The first 5 LinkedIn DMs can start.
