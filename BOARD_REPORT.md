@@ -90,6 +90,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `CUSTOMER_ACCESS_RISK_V1.md` | Yes | Yes | Yes | No |
 | `CHATGPT_COMPETITION_ANALYSIS_V1.md` | Yes | Yes | Yes | No |
 | `PAINKILLER_ANALYSIS_V1.md` | Yes | Yes | Yes | No |
+| `FREE_TO_PAID_LOOP_ANALYSIS_V1.md` | Yes | Yes | Yes | No |
 
 ### Revenue Risk Scanner MVP Implementation Status
 
