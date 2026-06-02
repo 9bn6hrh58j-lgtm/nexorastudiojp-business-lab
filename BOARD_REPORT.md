@@ -58,6 +58,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `AUTONOMOUS_BUSINESS_SHORTLIST.md` | Yes | Yes | Yes | No |
 | `CROSS_BORDER_TRUST_SCANNER_V1.md` | Yes | Yes | Yes | No |
 | `REVENUE_RISK_SCORING_V1.md` | Yes | Yes | Yes | No |
+| `MVP_SPEC_V1.md` | Yes | Yes | Yes | No |
 
 ### Sales Funnel Blockers
 
