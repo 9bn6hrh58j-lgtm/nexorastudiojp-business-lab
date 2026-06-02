@@ -54,6 +54,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `AUTONOMOUS_BUSINESS_RANKING.md` | Yes | Yes | Yes | No |
 | `SHOPIFY_JAPAN_SCANNER.md` | Yes | Yes | Yes | No |
 | `SHOPIFY_JAPAN_SCANNER_V1.md` | Yes | Yes | Yes | No |
+| `AUTONOMOUS_BUSINESS_SHORTLIST.md` | Yes | Yes | Yes | No |
 
 ### Sales Funnel Blockers
 
