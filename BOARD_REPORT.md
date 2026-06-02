@@ -36,9 +36,19 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `japan-readiness-audit/validation-assets/LINKEDIN_OUTREACH_PLAYBOOK.md` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/validation-assets/TARGET_COMPANY_LIST_TEMPLATE.xlsx` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/SALES_FUNNEL_V1.md` | Yes | Yes | Yes | No |
-| `japan-readiness-audit/customer-facing/SAMPLE_AUDIT_REPORT.pdf` | Yes | No | No | No |
-| `japan-readiness-audit/sales/GUMROAD_PRODUCT_PAGE.md` | Yes | No | No | No |
-| `japan-readiness-audit/sales/FOUNDER_BETA_APPLICATION_PAGE.html` | Yes | No | No | No |
+| `japan-readiness-audit/customer-facing/SAMPLE_AUDIT_REPORT.pdf` | Yes | Yes | Yes | No |
+| `japan-readiness-audit/sales/GUMROAD_PRODUCT_PAGE.md` | Yes | Yes | Yes | No |
+| `japan-readiness-audit/sales/FOUNDER_BETA_APPLICATION_PAGE.html` | Yes | Yes | Yes | No |
+
+### Sales Funnel Blockers
+
+The sales funnel is not ready for public outreach until these live links are configured:
+
+- Form endpoint for `FOUNDER_BETA_APPLICATION_PAGE.html`
+- Live Gumroad product URL
+- Public application page URL
+
+Current status: sales assets are created, committed, and pushed, but live form/payment configuration is still required before outreach.
 
 Next required step: request review after confirming GitHub push.
 

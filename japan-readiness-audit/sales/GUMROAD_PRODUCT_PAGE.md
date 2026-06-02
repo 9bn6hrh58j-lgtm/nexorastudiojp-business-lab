@@ -16,7 +16,22 @@ A practical website review for small brands considering Japan. Find the trust, l
 
 **$49**
 
-First 10 companies only.
+Founder Beta for the first 10 companies only.
+
+Recommended urgency copy:
+
+```text
+Founder Beta: 10 total audit slots.
+Update the remaining slot count manually before each outreach batch.
+```
+
+## Sample Report
+
+Before purchasing, review the sample audit report:
+
+https://github.com/9bn6hrh58j-lgtm/nexorastudiojp-business-lab/blob/main/japan-readiness-audit/customer-facing/SAMPLE_AUDIT_REPORT.pdf
+
+The sample shows the expected report structure, level of detail, readiness scoring, buyer hesitation analysis, and priority-ranked recommendations.
 
 ## What This Is
 
@@ -27,6 +42,12 @@ It is not a full translation service.
 It is not legal, tax, or regulatory advice.
 
 It is a practical review that helps you find the biggest Japan launch blockers before you invest more money.
+
+## Who Prepares The Audit
+
+The audit is prepared by Nexora Studio JP, a Japan-based business lab focused on helping small overseas businesses reduce trust, localization, and purchase-flow risks before entering Japan.
+
+The review is written from a Japanese buyer-readiness perspective. It is practical feedback for launch preparation, not legal, tax, customs, or regulatory advice.
 
 ## What You Get
 
@@ -95,3 +116,23 @@ You pay $49 because:
 Apply for the Founder Beta audit and send your website URL.
 
 You will receive your written report within 3-5 business days.
+
+## Setup Required Before Publishing
+
+Replace these before sharing publicly:
+
+- Gumroad product URL: `GUMROAD_PRODUCT_URL_HERE`
+- Founder Beta application URL: `FOUNDER_BETA_APPLICATION_URL_HERE`
+- Remaining slots count
+
+Recommended Gumroad button copy:
+
+```text
+Apply for the $49 Founder Beta Audit
+```
+
+Recommended post-purchase instruction:
+
+```text
+After purchase, submit your website URL and Japan launch context through the Founder Beta application form: FOUNDER_BETA_APPLICATION_URL_HERE
+```

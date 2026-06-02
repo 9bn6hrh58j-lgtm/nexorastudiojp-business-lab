@@ -94,6 +94,15 @@
       border-radius: 10px;
       font-weight: 700;
       margin-top: 18px;
+      border: 0;
+      cursor: pointer;
+      font: inherit;
+    }
+    .secondary {
+      background: white;
+      color: var(--accent-2);
+      border: 1px solid var(--line);
+      margin-left: 10px;
     }
     .muted { color: var(--muted); }
     .small { font-size: 14px; }
@@ -138,6 +147,7 @@
         <p class="sub">A practical website review for small brands considering Japan. Find the trust, localization, FAQ, shipping, payment, and return issues that may block Japanese customers before you spend money on ads or full translation.</p>
         <div class="price">$49</div><br>
         <a class="cta" href="#application">Apply for Founder Beta</a>
+        <a class="cta secondary" href="https://github.com/9bn6hrh58j-lgtm/nexorastudiojp-business-lab/blob/main/japan-readiness-audit/customer-facing/SAMPLE_AUDIT_REPORT.pdf">View sample report</a>
         <p class="note">You will receive a written audit report within 3-5 business days after approval and payment.</p>
       </div>
       <div class="card">
@@ -180,6 +190,18 @@
     </section>
 
     <section class="section card">
+      <h2>Who prepares the audit</h2>
+      <p class="muted">The audit is prepared by Nexora Studio JP, a Japan-based business lab focused on helping small overseas businesses reduce trust, localization, and purchase-flow risks before entering Japan.</p>
+      <p class="muted">The review is written from a Japanese buyer-readiness perspective. It is practical feedback for launch preparation, not legal, tax, customs, or regulatory advice.</p>
+    </section>
+
+    <section class="section card">
+      <h2>See a sample first</h2>
+      <p class="muted">Before applying, review the sample report so you know the level of feedback and format you can expect.</p>
+      <a class="cta" href="https://github.com/9bn6hrh58j-lgtm/nexorastudiojp-business-lab/blob/main/japan-readiness-audit/customer-facing/SAMPLE_AUDIT_REPORT.pdf">Open sample audit report</a>
+    </section>
+
+    <section class="section card">
       <h2>What this is not</h2>
       <ul>
         <li>Not a market report</li>
@@ -213,31 +235,32 @@
 
     <section class="section card" id="application">
       <h2>Application</h2>
-      <p class="muted">Send your website URL and a short note about what you are planning for Japan.</p>
-      <form>
+      <p class="muted">Submit your website URL and a short note about what you are planning for Japan. This page is ready for Formspree, Netlify Forms, or another form endpoint.</p>
+      <p class="note"><strong>Setup required before public outreach:</strong> replace <code>FORM_ENDPOINT_HERE</code> with the live form endpoint and replace <code>GUMROAD_PRODUCT_URL_HERE</code> with the live Gumroad product URL.</p>
+      <form action="FORM_ENDPOINT_HERE" method="post">
         <div class="field">
           <label for="name">Name</label>
-          <input id="name" type="text" placeholder="Your name">
+          <input id="name" name="name" type="text" placeholder="Your name" required>
         </div>
         <div class="field">
           <label for="email">Email</label>
-          <input id="email" type="email" placeholder="you@example.com">
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
         </div>
         <div class="field">
           <label for="url">Website URL</label>
-          <input id="url" type="url" placeholder="https://yourwebsite.com">
+          <input id="url" name="website_url" type="url" placeholder="https://yourwebsite.com" required>
         </div>
         <div class="field">
           <label for="context">What are you planning for Japan?</label>
-          <textarea id="context" rows="5" placeholder="Tell us what you are planning, what market you sell in now, and what you want to learn."></textarea>
+          <textarea id="context" name="japan_context" rows="5" placeholder="Tell us what you are planning, what market you sell in now, and what you want to learn." required></textarea>
         </div>
         <div class="field">
-          <label for="link">Payment link placeholder</label>
-          <input id="link" type="text" value="https://gumroad.com/l/placeholder" readonly>
+          <label for="payment_link">Payment link</label>
+          <input id="payment_link" name="payment_link" type="text" value="GUMROAD_PRODUCT_URL_HERE" readonly>
         </div>
+        <button class="cta" type="submit">Submit application</button>
       </form>
-      <p class="note">If approved, you will be sent the payment link and next steps.</p>
-      <a class="cta" href="https://gumroad.com/l/placeholder">Submit Application</a>
+      <p class="note">After fit is confirmed, send the buyer the live Gumroad payment link. For the fastest Founder Beta flow, use the same Gumroad URL in the payment field above once available.</p>
     </section>
 
     <section class="section card">
