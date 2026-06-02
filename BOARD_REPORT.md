@@ -39,6 +39,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `japan-readiness-audit/customer-facing/SAMPLE_AUDIT_REPORT.pdf` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/sales/GUMROAD_PRODUCT_PAGE.md` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/sales/FOUNDER_BETA_APPLICATION_PAGE.html` | Yes | Yes | Yes | No |
+| `japan-readiness-audit/LAUNCH_BLOCKERS.md` | Yes | Yes | Yes | No |
 
 ### Sales Funnel Blockers
 
