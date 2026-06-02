@@ -111,6 +111,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `INTENT_CAPTURE_MARKET_MAP_V1.md` | Yes | Yes | Yes | No |
 | `NICHE_JOB_MARKET_ANALYSIS_V1.md` | Yes | Yes | Yes | No |
 | `APPEARANCE_FLEXIBLE_JOB_VALIDATION_V1.md` | Yes | Yes | Yes | No |
+| `EMPLOYER_FIRST_VALIDATION_V1.md` | Yes | Yes | Yes | No |
 
 ### Revenue Risk Scanner MVP Implementation Status
 
