@@ -101,6 +101,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `ZERO_BASE_50_IDEAS_V2.md` | Yes | Yes | Yes | No |
 | `BUSINESS_SELECTION_RULEBOOK_V1.md` | Yes | Yes | Yes | No |
 | `REAL_PAYMENT_BEHAVIOR_ANALYSIS_V1.md` | Yes | Yes | Yes | No |
+| `RECURRING_UTILITY_RANKING_V1.md` | Yes | Yes | Yes | No |
 
 ### Revenue Risk Scanner MVP Implementation Status
 
