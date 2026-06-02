@@ -1,38 +1,62 @@
 # Revenue Risk Scanner
 
-Next.js + TypeScript + Tailwind MVP for website revenue risk analysis.
+Next.js + TypeScript + Tailwind MVP.
 
 ## What it does
 
 - Accepts a URL
-- Crawls the site
-- Sends the crawl context to OpenAI for evaluation
-- Returns JSON output
-- Calculates a Revenue Risk Score
-- Renders the result in a React UI
+- Fetches the page HTML
+- Extracts shipping / returns / duties / contact / FAQ / trust signal clues
+- Calculates a Revenue Risk Score from 0 to 100
+- Returns JSON from `POST /api/scan`
+- Shows the result in a React UI
 
-## Environment
+The scanner is rules-based. It does not require OpenAI, authentication, payments, or a database.
 
-Create `.env.local` with:
-
-```bash
-OPENAI_API_KEY=your_key_here
-OPENAI_MODEL=gpt-4.1-mini
-```
-
-If `OPENAI_API_KEY` is missing, the app falls back to a heuristic analysis so the UI can still work.
-
-## Run
+## Run locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Main files
+Then open:
 
-- `app/page.tsx` - React UI
-- `app/api/analyze/route.ts` - crawl + evaluation API
-- `lib/crawl.ts` - shallow crawler
-- `lib/analyze.ts` - OpenAI / heuristic analysis
-- `lib/types.ts` - shared types
+```text
+http://localhost:3000
+```
+
+## API
+
+`POST /api/scan`
+
+Body:
+
+```json
+{ "url": "https://example.com" }
+```
+
+Response includes:
+
+- `analysis.revenueRiskScore`
+- `analysis.riskLevel`
+- `analysis.decision`
+- `analysis.findings`
+- `analysis.extracted`
+- `analysis.componentScores`
+- `analysis.crawlSummary`
+- `crawledPages`
+- `json`
+
+## Files
+
+- `app/page.tsx` - UI
+- `app/api/scan/route.ts` - scan API
+- `lib/scan.ts` - fetch, extract, score
+
+## Production check
+
+```bash
+npm run build
+npm start
+```

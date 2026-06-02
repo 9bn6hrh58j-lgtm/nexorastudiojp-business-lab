@@ -3,46 +3,69 @@
 import { useMemo, useState } from "react";
 import type { FormEvent } from "react";
 
-type ApiResult = {
+type ScanResponse = {
   ok: boolean;
   inputUrl?: string;
-  crawl?: {
-    rootUrl: string;
-    visited: string[];
-    pages: Array<{
-      url: string;
-      title: string;
-      description: string;
-      headings: string[];
-      textSnippet: string;
-      linkCount: number;
-      formsCount: number;
-      internalLinks: string[];
-    }>;
-  };
+  url?: string;
+  crawledPages?: Array<{
+    url: string;
+    title: string;
+    description: string;
+    headings: string[];
+    textSnippet: string;
+    linkCount: number;
+    formsCount: number;
+    contactEmails: string[];
+    contactPhones: string[];
+    internalLinks: string[];
+  }>;
   analysis?: {
     url: string;
-    mode: "openai" | "heuristic";
     revenueRiskScore: number;
-    riskLevel: "low" | "medium" | "high" | "critical";
+    riskLevel: "low" | "moderate" | "high" | "critical";
     decision: "launch_ready" | "needs_fix" | "not_ready";
     summary: string;
-    strengths: string[];
-    risks: string[];
-    recommendations: string[];
-    topGaps: string[];
-    evidence: Array<{ page: string; issue: string; whyItMatters: string }>;
-    confidence: number;
+    findings: Array<{
+      id: string;
+      category: string;
+      severity: string;
+      evidenceUrl: string;
+      evidenceSnippet: string;
+      trustGap: string;
+      revenueLossType: string;
+      riskPoints: number;
+      whyItMatters: string;
+      recommendedFix: string;
+    }>;
+    extracted: {
+      shipping: boolean;
+      returns: boolean;
+      duties: boolean;
+      contact: boolean;
+      faq: boolean;
+      trustSignals: boolean;
+    };
+    componentScores: Record<string, number>;
     crawlSummary: string;
   };
+  json?: string;
   error?: string;
+};
+
+type ExtractedSignals = {
+  shipping: boolean;
+  returns: boolean;
+  duties: boolean;
+  contact: boolean;
+  faq: boolean;
+  trustSignals: boolean;
 };
 
 function badgeClass(level?: string) {
   switch (level) {
     case "low":
       return "bg-emerald-50 text-emerald-700 ring-emerald-200";
-    case "medium":
+    case "moderate":
       return "bg-amber-50 text-amber-700 ring-amber-200";
     case "high":
       return "bg-orange-50 text-orange-700 ring-orange-200";
@@ -57,7 +80,7 @@ export default function Page() {
   const [url, setUrl] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [result, setResult] = useState<ApiResult | null>(null);
+  const [result, setResult] = useState<ScanResponse | null>(null);
 
   const analysis = result?.analysis;
   const scoreLabel = useMemo(() => {
@@ -72,14 +95,14 @@ export default function Page() {
     setResult(null);
 
     try {
-      const response = await fetch("/api/analyze", {
+      const response = await fetch("/api/scan", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ url }),
       });
-      const data = (await response.json()) as ApiResult;
+      const data = (await response.json()) as ScanResponse;
       if (!response.ok || !data.ok) {
-        throw new Error(data.error || "Analysis failed.");
+        throw new Error(data.error || "Scan failed.");
       }
       setResult(data);
     } catch (err) {
@@ -100,7 +123,7 @@ export default function Page() {
             Scan a website for revenue risk before you waste spend.
           </h1>
           <p className="mt-4 max-w-2xl text-base leading-7 text-slate-600">
-            Enter a URL, crawl the site, send the page data to OpenAI, and get a structured JSON report with a Revenue Risk Score.
+            Enter a URL, fetch the HTML, extract shipping / returns / duties / contact / FAQ / trust signals, and get a Revenue Risk Score with JSON output.
           </p>
 
           <form onSubmit={onSubmit} className="mt-8 space-y-4">
@@ -112,7 +135,7 @@ export default function Page() {
                 value={url}
                 onChange={(e) => setUrl(e.target.value)}
                 placeholder="https://example.com"
-                className="w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-slate-900 outline-none ring-0 transition focus:border-teal-500 focus:shadow-[0_0_0_4px_rgba(13,148,136,0.12)]"
+                className="w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-slate-900 outline-none transition focus:border-teal-500 focus:shadow-[0_0_0_4px_rgba(13,148,136,0.12)]"
               />
             </label>
 
@@ -132,9 +155,9 @@ export default function Page() {
           ) : null}
 
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
-            <StatCard label="Crawling" value="URL + internal pages" />
-            <StatCard label="Evaluation" value="OpenAI JSON output" />
-            <StatCard label="Result" value="Revenue Risk Score" />
+            <StatCard label="Input" value="URL only" />
+            <StatCard label="Scan" value="HTML fetch + rules" />
+            <StatCard label="Output" value="JSON + score" />
           </div>
         </div>
 
@@ -144,11 +167,11 @@ export default function Page() {
             <li>• Crawl summary and visited pages</li>
             <li>• Revenue Risk Score from 0 to 100</li>
             <li>• Risk level and decision state</li>
-            <li>• Strengths, risks, recommendations, and evidence</li>
-            <li>• JSON output suitable for downstream automation</li>
+            <li>• Findings with evidence and fixes</li>
+            <li>• JSON output for automation</li>
           </ul>
           <div className="mt-8 rounded-2xl border border-white/10 bg-white/5 p-4 text-sm text-slate-200">
-            Human input is not required. If `OPENAI_API_KEY` is missing, the app falls back to a heuristic risk report so the MVP still works.
+            No authentication. No payment. No DB. No admin panel.
           </div>
         </aside>
       </section>
@@ -163,9 +186,6 @@ export default function Page() {
               <span className="inline-flex rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">
                 {analysis.decision}
               </span>
-              <span className="inline-flex rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">
-                {analysis.mode}
-              </span>
             </div>
 
             <div className="mt-5">
@@ -175,33 +195,41 @@ export default function Page() {
             </div>
 
             <div className="mt-6 grid gap-4">
-              <ListPanel title="Strengths" items={analysis.strengths} tone="emerald" />
-              <ListPanel title="Risks" items={analysis.risks} tone="rose" />
-              <ListPanel title="Recommendations" items={analysis.recommendations} tone="sky" />
+              <ListPanel title="Extracted Signals" items={formatSignals(analysis.extracted)} tone="sky" />
+              <ListPanel title="Component Scores" items={formatScores(analysis.componentScores)} tone="emerald" />
             </div>
           </div>
 
           <div className="space-y-6">
             <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-              <h3 className="text-lg font-semibold text-slate-950">Top Gaps</h3>
-              <ul className="mt-4 space-y-3 text-sm leading-6 text-slate-700">
-                {analysis.topGaps.length > 0 ? analysis.topGaps.map((gap) => <li key={gap}>• {gap}</li>) : <li>• No top gaps returned.</li>}
-              </ul>
-            </div>
-
-            <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
-              <h3 className="text-lg font-semibold text-slate-950">Evidence</h3>
+              <h3 className="text-lg font-semibold text-slate-950">Findings</h3>
               <div className="mt-4 space-y-4">
-                {analysis.evidence.length > 0 ? (
-                  analysis.evidence.map((item, index) => (
-                    <article key={`${item.page}-${index}`} className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
-                      <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">{item.page}</div>
-                      <div className="mt-1 text-sm font-semibold text-slate-950">{item.issue}</div>
+                {analysis.findings.length > 0 ? (
+                  analysis.findings.map((item) => (
+                    <article key={item.id} className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                      <div className="flex flex-wrap gap-2">
+                        <span className="inline-flex rounded-full bg-white px-2.5 py-1 text-[11px] font-semibold text-slate-700 ring-1 ring-slate-200">
+                          {item.category}
+                        </span>
+                        <span className="inline-flex rounded-full bg-white px-2.5 py-1 text-[11px] font-semibold text-slate-700 ring-1 ring-slate-200">
+                          {item.severity}
+                        </span>
+                        <span className="inline-flex rounded-full bg-white px-2.5 py-1 text-[11px] font-semibold text-slate-700 ring-1 ring-slate-200">
+                          {item.riskPoints.toFixed(2)} pts
+                        </span>
+                      </div>
+                      <div className="mt-2 text-sm font-semibold text-slate-950">{item.trustGap}</div>
                       <p className="mt-2 text-sm leading-6 text-slate-600">{item.whyItMatters}</p>
+                      <p className="mt-2 text-sm leading-6 text-slate-700">
+                        <span className="font-semibold">Fix:</span> {item.recommendedFix}
+                      </p>
+                      <p className="mt-2 text-xs text-slate-500 break-all">
+                        Evidence: {item.evidenceUrl}
+                      </p>
                     </article>
                   ))
                 ) : (
-                  <p className="text-sm text-slate-600">No evidence entries returned.</p>
+                  <p className="text-sm text-slate-600">No findings returned.</p>
                 )}
               </div>
             </div>
@@ -209,8 +237,21 @@ export default function Page() {
             <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
               <h3 className="text-lg font-semibold text-slate-950">Crawl Summary</h3>
               <p className="mt-3 text-sm leading-6 text-slate-600">{analysis.crawlSummary}</p>
+              <div className="mt-4 space-y-3">
+                {result?.crawledPages?.map((page) => (
+                  <div key={page.url} className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
+                    <div className="text-xs font-semibold uppercase tracking-wide text-slate-500">{page.url}</div>
+                    <div className="mt-1 text-sm font-semibold text-slate-950">{page.title || "Untitled page"}</div>
+                    <p className="mt-2 text-sm leading-6 text-slate-600">{page.description || page.textSnippet}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+              <h3 className="text-lg font-semibold text-slate-950">JSON Output</h3>
               <pre className="mt-4 max-h-[420px] overflow-auto rounded-2xl bg-slate-950 p-4 text-xs leading-5 text-slate-100">
-{JSON.stringify(result, null, 2)}
+{result?.json ?? JSON.stringify(result, null, 2)}
               </pre>
             </div>
           </div>
@@ -244,4 +285,21 @@ function ListPanel({ title, items, tone }: { title: string; items: string[]; ton
       </ul>
     </section>
   );
+}
+
+function formatSignals(extracted: ExtractedSignals | undefined) {
+  if (!extracted) return [];
+  return [
+    `Shipping: ${extracted.shipping ? "found" : "missing"}`,
+    `Returns: ${extracted.returns ? "found" : "missing"}`,
+    `Duties: ${extracted.duties ? "found" : "missing"}`,
+    `Contact: ${extracted.contact ? "found" : "missing"}`,
+    `FAQ: ${extracted.faq ? "found" : "missing"}`,
+    `Trust signals: ${extracted.trustSignals ? "found" : "missing"}`,
+  ];
+}
+
+function formatScores(scores: Record<string, number> | undefined) {
+  if (!scores) return [];
+  return Object.entries(scores).map(([key, value]) => `${key}: ${value.toFixed(2)}`);
 }

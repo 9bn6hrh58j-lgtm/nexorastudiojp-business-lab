@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { analyzeCrawl } from "@/lib/analyze";
-import { crawlWebsite } from "@/lib/crawl";
+import { scanWebsite } from "@/lib/scan";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -20,15 +19,13 @@ export async function POST(req: NextRequest) {
     const body = await req.json().catch(() => ({}));
     const url = validateUrl(String(body?.url ?? ""));
 
-    const crawl = await crawlWebsite(url);
-    const analysis = await analyzeCrawl(crawl);
+    const result = await scanWebsite(url);
 
     return NextResponse.json(
       {
         ok: true,
         inputUrl: url,
-        crawl,
-        analysis,
+        ...result,
       },
       { status: 200 }
     );
