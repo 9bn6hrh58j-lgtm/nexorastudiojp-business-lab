@@ -35,6 +35,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `japan-readiness-audit/validation-assets/FOUNDER_BETA_OFFER.md` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/validation-assets/LINKEDIN_OUTREACH_PLAYBOOK.md` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/validation-assets/TARGET_COMPANY_LIST_TEMPLATE.xlsx` | Yes | Yes | Yes | No |
+| `japan-readiness-audit/SALES_FUNNEL_V1.md` | Yes | Yes | Yes | No |
 
 Next required step: request review after confirming GitHub push.
 
