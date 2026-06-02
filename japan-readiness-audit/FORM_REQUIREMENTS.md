@@ -50,7 +50,6 @@ Keep required fields limited to what is needed to qualify the applicant and prep
 | Are you currently selling to Japan? | Multiple choice | Yes | Qualifies current readiness |
 | Do you currently ship to Japan? | Multiple choice | Yes | Critical for ecommerce/DTC |
 | What are you planning for Japan? | Paragraph | Yes | Shows urgency and intent |
-| What do you most want reviewed? | Checkbox | Yes | Guides audit focus |
 | Consent / scope acknowledgment | Checkbox | Yes | Prevents expectation mismatch |
 
 ## Required Field Options
@@ -73,6 +72,28 @@ Options:
 - Not applicable
 - Not sure
 
+### Consent / Scope Acknowledgment
+
+Required checkbox text:
+
+```text
+I understand this audit is a website readiness review. It is not legal, tax, customs, regulatory, or sales-guarantee advice.
+```
+
+## Optional Fields
+
+Optional fields should be limited. Do not make the form feel like a consulting intake.
+
+| Field | Type | Reason |
+|---|---|---|
+| What do you most want reviewed? | Checkbox | Guides audit focus, but can wait until intake if needed |
+| LinkedIn profile | Short answer | Helps connect applicant to outreach thread |
+| Current monthly website traffic | Multiple choice | Useful context, not required |
+| Timeline for Japan launch | Multiple choice | Helps prioritize urgency |
+| Anything else we should know? | Paragraph | Gives space without forcing long answers |
+
+## Optional Field Options
+
 ### What do you most want reviewed?
 
 Use checkboxes.
@@ -88,27 +109,6 @@ Options:
 - Return/refund clarity
 - Japanese buyer hesitation points
 - Launch priority list
-
-### Consent / Scope Acknowledgment
-
-Required checkbox text:
-
-```text
-I understand this audit is a website readiness review. It is not legal, tax, customs, regulatory, or sales-guarantee advice.
-```
-
-## Optional Fields
-
-Optional fields should be limited. Do not make the form feel like a consulting intake.
-
-| Field | Type | Reason |
-|---|---|---|
-| LinkedIn profile | Short answer | Helps connect applicant to outreach thread |
-| Current monthly website traffic | Multiple choice | Useful context, not required |
-| Timeline for Japan launch | Multiple choice | Helps prioritize urgency |
-| Anything else we should know? | Paragraph | Gives space without forcing long answers |
-
-## Optional Field Options
 
 ### Current monthly website traffic
 
@@ -167,6 +167,34 @@ After submission:
 4. If Maybe, ask one follow-up question.
 5. If Not Fit, politely decline or explain why the audit is not useful yet.
 
+## Payment Flow Decision
+
+Use manual Fit review before payment.
+
+The prospect should not be routed to payment immediately after submitting the form.
+
+Reason:
+
+- avoid unqualified purchases
+- protect the first 10 Founder Beta slots
+- preserve audit quality
+- prevent categories that require legal, import, medical, food safety, or regulatory advice from buying the wrong offer
+
+Flow:
+
+```text
+Application submitted
+-> Fit review
+-> If Fit, send Gumroad payment link
+-> After payment, prepare audit
+```
+
+## Notification Policy
+
+Use an email address the CEO can reliably check.
+
+If the business email is not finalized yet, use the currently accessible email as a temporary notification address. The notification email can be changed later.
+
 ## Customer Information Policy
 
 Collect only the minimum information needed to:
@@ -203,8 +231,8 @@ Do not ask for private business metrics unless the buyer volunteers them later.
 
 ### Section 3: Audit Focus
 
-- What do you most want reviewed?
-- Anything else we should know?
+- What do you most want reviewed? (optional)
+- Anything else we should know? (optional)
 
 ### Section 4: Scope Acknowledgment
 
@@ -235,6 +263,6 @@ The form is ready when:
 
 Before outreach, the CEO only needs to confirm:
 
-1. Which email should receive form notifications?
+1. Which temporary email should receive form notifications?
 2. What is the live Gumroad product URL?
-3. Should Fit applicants pay immediately, or wait for manual approval first?
+3. What public URL should be used for the application form?
