@@ -61,6 +61,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `MVP_SPEC_V1.md` | Yes | Yes | Yes | No |
 | `AI_BUSINESS_RANKING_V2.md` | Yes | Yes | Yes | No |
 | `POSITIONING_DECISION_V1.md` | Yes | Yes | Yes | No |
+| `INFRA_AND_ENVIRONMENT_REPORT_V1.md` | Yes | Yes | Yes | No |
 | `SITE_VALIDATION_PLAN_V1.md` | Yes | Yes | Yes | No |
 
 ### Sales Funnel Blockers
