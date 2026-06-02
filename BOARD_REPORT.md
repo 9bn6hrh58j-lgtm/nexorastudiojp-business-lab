@@ -36,6 +36,9 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `japan-readiness-audit/validation-assets/LINKEDIN_OUTREACH_PLAYBOOK.md` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/validation-assets/TARGET_COMPANY_LIST_TEMPLATE.xlsx` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/SALES_FUNNEL_V1.md` | Yes | Yes | Yes | No |
+| `japan-readiness-audit/customer-facing/SAMPLE_AUDIT_REPORT.pdf` | Yes | No | No | No |
+| `japan-readiness-audit/sales/GUMROAD_PRODUCT_PAGE.md` | Yes | No | No | No |
+| `japan-readiness-audit/sales/FOUNDER_BETA_APPLICATION_PAGE.html` | Yes | No | No | No |
 
 Next required step: request review after confirming GitHub push.
 

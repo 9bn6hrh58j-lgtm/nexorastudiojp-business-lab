@@ -1,0 +1,569 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Length 2056 >>
+stream
+BT
+/F1 11 Tf
+54 738 Td
+14 TL
+(Japan Readiness Audit - Sample Report) Tj
+T*
+() Tj
+T*
+(Client) Tj
+T*
+() Tj
+T*
+(Brand: North & Ember) Tj
+T*
+(Category: Shopify DTC skincare brand) Tj
+T*
+(Country: Canada) Tj
+T*
+(Website: https://example.com/north-ember) Tj
+T*
+(Audit scope: Product page, homepage, checkout signals, FAQ, shipping/returns, trust) Tj
+T*
+(signals) Tj
+T*
+() Tj
+T*
+(Executive Summary) Tj
+T*
+() Tj
+T*
+(North & Ember has a clean brand identity and a product line that could appeal to) Tj
+T*
+(Japanese customers who like minimalist skincare. However, the current site is not ready) Tj
+T*
+(for Japan launch.) Tj
+T*
+() Tj
+T*
+(The biggest issue is not translation. The biggest issue is trust.) Tj
+T*
+() Tj
+T*
+(Japanese customers are likely to hesitate because the site does not clearly answer) Tj
+T*
+(practical buying questions: safety, skin compatibility, total cost, delivery time,) Tj
+T*
+(return handling, payment options, and customer support in Japan.) Tj
+T*
+() Tj
+T*
+(Readiness Score) Tj
+T*
+() Tj
+T*
+(| Area | Score | Comment |) Tj
+T*
+(|---|---:|---|) Tj
+T*
+(| Localization | 2/5 | Product benefits are understandable, but not localized to) Tj
+T*
+(Japanese buying behavior. |) Tj
+T*
+(| Trust Signals | 2/5 | Brand story is polished, but risk-reduction signals are weak. |) Tj
+T*
+(| FAQ Coverage | 1/5 | Key questions for Japanese buyers are missing. |) Tj
+T*
+(| Shipping & Returns | 2/5 | International shipping exists, but Japan-specific) Tj
+T*
+(expectations are not addressed. |) Tj
+T*
+(| Checkout Confidence | 2/5 | Payment, duties, taxes, and delivery timing need clearer) Tj
+T*
+(explanation. |) Tj
+T*
+(| Japan Launch Readiness | 2/5 | Launch is possible, but conversion risk is high. |) Tj
+T*
+() Tj
+T*
+(Key Problems) Tj
+T*
+() Tj
+T*
+(1. The product page does not reduce purchase anxiety) Tj
+T*
+() Tj
+T*
+(The product page explains the product benefits, but Japanese customers will likely ask:) Tj
+T*
+() Tj
+T*
+(- Is this safe for sensitive skin?) Tj
+T*
+(- Are the ingredients common or acceptable in Japan?) Tj
+T*
+(- Is there any fragrance?) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Length 1902 >>
+stream
+BT
+/F1 11 Tf
+54 738 Td
+14 TL
+(- Can I use this with products I already own?) Tj
+T*
+(- What happens if my skin reacts badly?) Tj
+T*
+(- Is there Japanese-language support?) Tj
+T*
+() Tj
+T*
+(These concerns are not answered close to the purchase button.) Tj
+T*
+() Tj
+T*
+(Why Japanese customers may feel uneasy:) Tj
+T*
+(Japanese skincare buyers often compare details carefully before purchasing, especially) Tj
+T*
+(when the product is imported. A beautiful product page is not enough if it does not) Tj
+T*
+(remove practical concerns.) Tj
+T*
+() Tj
+T*
+(Recommended improvement:) Tj
+T*
+(Add a "Before You Buy" section near the add-to-cart area.) Tj
+T*
+() Tj
+T*
+(Suggested copy structure:) Tj
+T*
+() Tj
+T*
+(- Suitable for: dry skin, normal skin, fragrance-sensitive users) Tj
+T*
+(- Not recommended for: users with known allergies to listed ingredients) Tj
+T*
+(- Patch test: recommended before first use) Tj
+T*
+(- Support: English support available; Japanese support planned) Tj
+T*
+(- Returns: clear policy for damaged or incorrect items) Tj
+T*
+() Tj
+T*
+(Priority: High) Tj
+T*
+() Tj
+T*
+(2. Shipping to Japan is too vague) Tj
+T*
+() Tj
+T*
+(The site says international shipping is available, but it does not clearly explain) Tj
+T*
+(Japan-specific delivery timing, tracking, customs duties, or expected total cost.) Tj
+T*
+() Tj
+T*
+(Why Japanese customers may feel uneasy:) Tj
+T*
+(If a buyer cannot estimate when the item will arrive and whether extra fees may appear,) Tj
+T*
+(they may abandon checkout.) Tj
+T*
+() Tj
+T*
+(Recommended improvement:) Tj
+T*
+(Create a Japan shipping block on product pages and FAQ.) Tj
+T*
+() Tj
+T*
+(Minimum information:) Tj
+T*
+() Tj
+T*
+(- Ships to Japan: Yes) Tj
+T*
+(- Estimated delivery: X-Y business days) Tj
+T*
+(- Tracking: Yes/No) Tj
+T*
+(- Customs duties/taxes: explain who pays) Tj
+T*
+(- Free shipping threshold: if any) Tj
+T*
+(- Carrier: if known) Tj
+T*
+() Tj
+T*
+(Priority: High) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Length 1835 >>
+stream
+BT
+/F1 11 Tf
+54 738 Td
+14 TL
+() Tj
+T*
+(3. Returns policy is written for the brand, not the buyer) Tj
+T*
+() Tj
+T*
+(The return policy is legally useful, but not emotionally reassuring. It is not clear) Tj
+T*
+(what happens if the item arrives damaged, delayed, or unsuitable.) Tj
+T*
+() Tj
+T*
+(Why Japanese customers may feel uneasy:) Tj
+T*
+(For overseas purchases, return risk feels higher. Japanese buyers need to know what is) Tj
+T*
+(covered and what is not covered before purchasing.) Tj
+T*
+() Tj
+T*
+(Recommended improvement:) Tj
+T*
+(Add a short buyer-friendly return summary.) Tj
+T*
+() Tj
+T*
+(Example:) Tj
+T*
+() Tj
+T*
+(If your order arrives damaged or incorrect, contact us within 7 days with photos and) Tj
+T*
+(your order number. We will review the issue and offer a replacement or refund when) Tj
+T*
+(applicable.) Tj
+T*
+() Tj
+T*
+(Also clarify:) Tj
+T*
+() Tj
+T*
+(- Whether unopened products can be returned) Tj
+T*
+(- Whether opened skincare products can be returned) Tj
+T*
+(- Whether return shipping is paid by the customer) Tj
+T*
+(- Whether support is available for Japan orders) Tj
+T*
+() Tj
+T*
+(Priority: High) Tj
+T*
+() Tj
+T*
+(4. FAQ does not reflect Japan launch concerns) Tj
+T*
+() Tj
+T*
+(The current FAQ answers general brand questions, but not Japan-specific buying concerns.) Tj
+T*
+() Tj
+T*
+(Missing FAQ topics:) Tj
+T*
+() Tj
+T*
+(- Do you ship to Japan?) Tj
+T*
+(- How long does Japan delivery take?) Tj
+T*
+(- Will I pay customs duties or import taxes?) Tj
+T*
+(- Can I pay with credit card/PayPal/Apple Pay?) Tj
+T*
+(- Is the product suitable for sensitive skin?) Tj
+T*
+(- Are instructions available in Japanese?) Tj
+T*
+(- What should I do if my package is delayed?) Tj
+T*
+(- What should I do if the product arrives damaged?) Tj
+T*
+() Tj
+T*
+(Recommended improvement:) Tj
+T*
+(Add a "For Japan Customers" FAQ section.) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Length 1569 >>
+stream
+BT
+/F1 11 Tf
+54 738 Td
+14 TL
+(Priority: High) Tj
+T*
+() Tj
+T*
+(5. Trust signals are too brand-focused) Tj
+T*
+() Tj
+T*
+(The site communicates brand taste, but not enough proof.) Tj
+T*
+() Tj
+T*
+(Current trust gap:) Tj
+T*
+() Tj
+T*
+(- No visible customer reviews near product CTA) Tj
+T*
+(- No press or third-party mentions) Tj
+T*
+(- No founder credibility beyond brand story) Tj
+T*
+(- No ingredient transparency summary) Tj
+T*
+(- No Japan-specific reassurance) Tj
+T*
+() Tj
+T*
+(Recommended improvement:) Tj
+T*
+(Add trust signals near the product CTA:) Tj
+T*
+() Tj
+T*
+(- Review count and review highlights) Tj
+T*
+(- Ingredient transparency link) Tj
+T*
+(- Secure checkout statement) Tj
+T*
+(- Shipping/return summary) Tj
+T*
+(- Real customer photo or quote) Tj
+T*
+(- "Ships to Japan" confirmation) Tj
+T*
+() Tj
+T*
+(Priority: Medium) Tj
+T*
+() Tj
+T*
+(6. Japanese localization should not start with full translation) Tj
+T*
+() Tj
+T*
+(Full Japanese translation is not the first step. The first step is fixing the conversion) Tj
+T*
+(blockers.) Tj
+T*
+() Tj
+T*
+(Why:) Tj
+T*
+(If the English page does not answer Japan-specific buyer concerns, translating the page) Tj
+T*
+(will simply translate the same weakness.) Tj
+T*
+() Tj
+T*
+(Recommended improvement:) Tj
+T*
+(Start with selective localization:) Tj
+T*
+() Tj
+T*
+(- Japan FAQ) Tj
+T*
+(- Shipping/returns explanation) Tj
+T*
+(- Product safety notes) Tj
+T*
+(- Checkout reassurance) Tj
+T*
+(- Post-purchase support message) Tj
+T*
+() Tj
+T*
+(Full Japanese site translation can come later if traffic and purchase intent justify it.) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+10 0 obj
+<< /Length 1834 >>
+stream
+BT
+/F1 11 Tf
+54 738 Td
+14 TL
+(Priority: Medium) Tj
+T*
+() Tj
+T*
+(Improvement Priority) Tj
+T*
+() Tj
+T*
+(| Priority | Action | Why it matters |) Tj
+T*
+(|---|---|---|) Tj
+T*
+(| 1 | Add Japan shipping and customs explanation | Reduces checkout abandonment. |) Tj
+T*
+(| 2 | Add Japan-specific FAQ | Answers the questions buyers will ask before purchase. |) Tj
+T*
+(| 3 | Add buyer-friendly return summary | Reduces perceived risk of overseas purchase. |) Tj
+T*
+(| 4 | Add product suitability and safety notes | Important for skincare trust. |) Tj
+T*
+(| 5 | Add trust signals near CTA | Makes the page feel safer and more established. |) Tj
+T*
+(| 6 | Prepare selective Japanese copy | Improves confidence without over-investing in) Tj
+T*
+(full translation. |) Tj
+T*
+() Tj
+T*
+(Recommended 7-Day Action Plan) Tj
+T*
+() Tj
+T*
+(Day 1) Tj
+T*
+(Create a Japan shipping and customs block.) Tj
+T*
+() Tj
+T*
+(Day 2) Tj
+T*
+(Rewrite the FAQ with a Japan customer section.) Tj
+T*
+() Tj
+T*
+(Day 3) Tj
+T*
+(Add a buyer-friendly returns summary to product pages.) Tj
+T*
+() Tj
+T*
+(Day 4) Tj
+T*
+(Add product suitability notes and patch test guidance.) Tj
+T*
+() Tj
+T*
+(Day 5) Tj
+T*
+(Move review highlights and secure checkout signals closer to the CTA.) Tj
+T*
+() Tj
+T*
+(Day 6) Tj
+T*
+(Prepare short Japanese support copy for shipping, returns, and product usage.) Tj
+T*
+() Tj
+T*
+(Day 7) Tj
+T*
+(Review the updated page from a Japanese buyer perspective before outreach or paid) Tj
+T*
+(traffic.) Tj
+T*
+() Tj
+T*
+(Final Recommendation) Tj
+T*
+() Tj
+T*
+(North & Ember should not begin Japan promotion yet.) Tj
+T*
+() Tj
+T*
+(The brand can enter Japan with a light launch, but the site should first fix trust,) Tj
+T*
+(shipping, returns, and FAQ gaps. These changes are lower cost than full localization and) Tj
+T*
+(more likely to improve purchase confidence.) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+12 0 obj
+<< /Length 163 >>
+stream
+BT
+/F1 11 Tf
+54 738 Td
+14 TL
+(Launch recommendation: Caution) Tj
+T*
+(Next step: Fix high-priority trust and checkout concerns before active Japan marketing.) Tj
+ET
+endstream
+endobj
+3 0 obj
+<< /Type /Page /Parent 14 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 2 0 R >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 14 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 4 0 R >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 14 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 6 0 R >>
+endobj
+9 0 obj
+<< /Type /Page /Parent 14 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 8 0 R >>
+endobj
+11 0 obj
+<< /Type /Page /Parent 14 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 10 0 R >>
+endobj
+13 0 obj
+<< /Type /Page /Parent 14 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R] /Count 6 >>
+endobj
+15 0 obj
+<< /Type /Catalog /Pages 14 0 R >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000002187 00000 n 
+0000004141 00000 n 
+0000006028 00000 n 
+0000007649 00000 n 
+0000009536 00000 n 
+0000009751 00000 n 
+0000009878 00000 n 
+0000010005 00000 n 
+0000010132 00000 n 
+0000010259 00000 n 
+0000010388 00000 n 
+0000010517 00000 n 
+0000010607 00000 n 
+trailer
+<< /Size 16 /Root 15 0 R >>
+startxref
+10658
+%%EOF
