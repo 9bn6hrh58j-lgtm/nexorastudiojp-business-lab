@@ -67,6 +67,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `ECOMMERCE_POLICY_FIX_PACK_V1.md` | Yes | Yes | Yes | No |
 | `AI_2031_OPPORTUNITY_MAP_V1.md` | Yes | Yes | Yes | No |
 | `AI_BUSINESS_2031_V1.md` | Yes | Yes | Yes | No |
+| `ZERO_BASE_50_IDEAS_V1.md` | Yes | Yes | Yes | No |
 | `AI_DISTRIBUTION_ANALYSIS_V1.md` | Yes | Yes | Yes | No |
 | `COMPETITIVE_POSITIONING_V1.md` | Yes | Yes | Yes | No |
 | `SAMPLE_SCAN_REVIEW_V1.md` | Yes | Yes | Yes | No |
