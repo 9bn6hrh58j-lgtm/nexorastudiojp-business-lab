@@ -62,6 +62,32 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `AI_BUSINESS_RANKING_V2.md` | Yes | Yes | Yes | No |
 | `POSITIONING_DECISION_V1.md` | Yes | Yes | Yes | No |
 | `INFRA_AND_ENVIRONMENT_REPORT_V1.md` | Yes | Yes | Yes | No |
+| `MVP_IMPLEMENTATION_STATUS_V1.md` | Yes | Yes | Yes | No |
+
+### Revenue Risk Scanner MVP Implementation Status
+
+Current status: implementation in progress, not verified.
+
+Observed app changes under `apps/revenue-risk-scanner` are uncommitted Navigator/Codex CLI work and must not be overwritten.
+
+Implemented/in progress:
+
+- URL input UI
+- `/api/scan` endpoint
+- rule-based crawler/scanner
+- Revenue Risk Score calculation
+- JSON output structure
+- React result display
+
+Current blockers:
+
+- TypeScript check fails in `lib/scan.ts` due `riskLevel` / `decision` literal type mismatch.
+- Local Next.js build/dev failed because the local macOS SWC binary could not load.
+- Sample URL scan is not verified yet.
+
+Next owner: Codex CLI / Navigator.
+
+Claude Code: unnecessary at this stage.
 | `SITE_VALIDATION_PLAN_V1.md` | Yes | Yes | Yes | No |
 
 ### Sales Funnel Blockers
