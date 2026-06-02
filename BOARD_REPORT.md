@@ -64,6 +64,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `INFRA_AND_ENVIRONMENT_REPORT_V1.md` | Yes | Yes | Yes | No |
 | `MVP_IMPLEMENTATION_STATUS_V1.md` | Yes | Yes | Yes | No |
 | `CASHFLOW_BUSINESS_RANKING_V1.md` | Yes | Yes | Yes | No |
+| `ECOMMERCE_POLICY_FIX_PACK_V1.md` | Yes | Yes | Yes | No |
 
 ### Revenue Risk Scanner MVP Implementation Status
 
