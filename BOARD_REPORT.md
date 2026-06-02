@@ -104,6 +104,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `RECURRING_UTILITY_RANKING_V1.md` | Yes | Yes | Yes | No |
 | `REAL_BEHAVIOR_DERIVED_BUSINESS_V1.md` | Yes | Yes | Yes | No |
 | `ZERO_BASE_100_FRESH_OPPORTUNITIES_V1.md` | Yes | Yes | Yes | No |
+| `SUBSCRIPTION_MARKET_PROFIT_RANKING_V1.md` | Yes | Yes | Yes | No |
 
 ### Revenue Risk Scanner MVP Implementation Status
 
