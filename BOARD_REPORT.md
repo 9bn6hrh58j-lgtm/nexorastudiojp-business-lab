@@ -4,6 +4,40 @@
 
 現在の優先事項は、初回販売を作りつつ、月100万円以上を狙える市場へ時間投資を寄せることです。
 
+## 運用ルール
+
+GitHubをこのプロジェクトの唯一の正本とします。
+
+成果物は以下の順番で扱います。
+
+1. 成果物完成
+2. GitHubへ反映
+3. レビュー依頼
+
+GitHubへ反映されていない成果物は、未完成扱いとします。
+
+## GitHub Status
+
+成果物は必ず以下の4段階で管理します。
+
+- Created: 成果物を作成済み
+- Committed: Git commit済み
+- Pushed: GitHubへpush済み
+- Reviewed: レビュー完了済み
+
+レビュー依頼は、原則として `Pushed` になった後に行います。
+
+### Current Assets
+
+| Asset | Created | Committed | Pushed | Reviewed |
+|---|---|---|---|---|
+| `japan-readiness-audit/validation-assets/SAMPLE_AUDIT_REPORT.md` | Yes | Yes | Yes | No |
+| `japan-readiness-audit/validation-assets/FOUNDER_BETA_OFFER.md` | Yes | Yes | Yes | No |
+| `japan-readiness-audit/validation-assets/LINKEDIN_OUTREACH_PLAYBOOK.md` | Yes | Yes | Yes | No |
+| `japan-readiness-audit/validation-assets/TARGET_COMPANY_LIST_TEMPLATE.xlsx` | Yes | Yes | Yes | No |
+
+Next required step: request review after confirming GitHub push.
+
 今回の判断材料として整備したもの:
 
 - `HIGH_TICKET_MARKET_RESEARCH.md`
