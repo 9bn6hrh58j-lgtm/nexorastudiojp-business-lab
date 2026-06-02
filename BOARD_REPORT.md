@@ -80,6 +80,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `FINDING_ECONOMICS_V1.md` | Yes | Yes | Yes | No |
 | `FINDING_VALIDATION_PLAN_V1.md` | Yes | Yes | Yes | No |
 | `BUILD_VS_BUY_ANALYSIS_V1.md` | Yes | Yes | Yes | No |
+| `PAYMENT_VALIDATION_FRAMEWORK_V1.md` | Yes | Yes | Yes | No |
 
 ### Revenue Risk Scanner MVP Implementation Status
 
