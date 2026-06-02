@@ -41,6 +41,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `japan-readiness-audit/sales/FOUNDER_BETA_APPLICATION_PAGE.html` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/LAUNCH_BLOCKERS.md` | Yes | Yes | Yes | No |
 | `japan-readiness-audit/FORM_REQUIREMENTS.md` | Yes | Yes | Yes | No |
+| `japan-readiness-audit/TARGET_10_COMPANIES.md` | Yes | Yes | Yes | No |
 
 ### Sales Funnel Blockers
 
