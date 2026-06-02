@@ -67,6 +67,7 @@ GitHubへ反映されていない成果物は、未完成扱いとします。
 | `ECOMMERCE_POLICY_FIX_PACK_V1.md` | Yes | Yes | Yes | No |
 | `AI_2031_OPPORTUNITY_MAP_V1.md` | Yes | Yes | Yes | No |
 | `AI_BUSINESS_2031_V1.md` | Yes | Yes | Yes | No |
+| `AI_DISTRIBUTION_ANALYSIS_V1.md` | Yes | Yes | Yes | No |
 
 ### Revenue Risk Scanner MVP Implementation Status
 
